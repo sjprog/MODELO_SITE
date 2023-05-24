@@ -1,0 +1,40 @@
+/* black1: #0B090A */
+/* black2: #161A1D */
+/* red1: #BA181B */
+/* red2: #E5383B */
+
+body {
+  font-family: 'Manrope', sans-serif;
+}
+
+.btn {
+  background-color: #0b090a;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+
+.btn-sm {
+  font-size: 0.9rem;
+  padding: 12px 24px;
+  border: 2px solid #ffffff;
+}
+
+.btn-small {
+  padding: 20px 40px;
+  color: #ffffff;
+  background-color: #ba181b;
+}
+
+.header {
+  background-color: #0b090a;
+  padding: 24px 72px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+}
+
+.bg {
+  background-color: #0b090a;
+}
