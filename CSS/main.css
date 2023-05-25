@@ -4,13 +4,13 @@
 /* red2: #E5383B */
 
 body {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Epilogue', sans-serif;
 }
 
 .btn {
   background-color: #0b090a;
   text-transform: uppercase;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .btn-sm {
@@ -37,4 +37,20 @@ body {
 
 .bg {
   background-color: #0b090a;
+}
+
+/* Hero */
+
+
+.hero-text__title {
+  font-size: 50px;
+  line-height: 56px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.hero-text__subtitle {
+  font-size: 20px;
+  line-height: 28px;
+  color: #c5c5c5;
 }
