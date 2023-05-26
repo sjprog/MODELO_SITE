@@ -57,3 +57,7 @@ button{
 	outline:none;
 	
 }
+
+img {
+	vertical-align: bottom;
+}
