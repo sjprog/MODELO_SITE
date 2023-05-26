@@ -50,7 +50,13 @@ body {
 }
 
 .hero-text__subtitle {
+  padding: 15px 0px;
   font-size: 20px;
   line-height: 28px;
   color: #c5c5c5;
 }
+
+#gallery-container
+ {
+  margin-bottom: 30px 30px;
+  }
