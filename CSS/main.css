@@ -108,6 +108,23 @@ body {
 }
 
 #just {
-  
   justify-content: space-around;
+}
+
+/* Location */
+
+#location-container {
+  background-color: #ffffff;
+  
+}
+
+#location-container .location{
+  padding: 96px 72px 48px;
+}
+
+#location-container address {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  
 }
