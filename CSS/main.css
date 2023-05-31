@@ -12,6 +12,8 @@ body {
   background-color: #0b090a;
   text-transform: uppercase;
   font-size: 1rem;
+  
+  
 }
 
 .btn-sm {
@@ -127,4 +129,18 @@ body {
   align-items: center;
   gap: 12px;
   
+}
+
+/* Footer */
+
+footer{
+  background-color: #0b090a;
+  color: #ffffff;
+  padding: 48px 72px;
+  display: flex;
+  justify-content:space-between ;
+  align-items: center;
+}
+footer a {
+  color: currentColor;
 }
