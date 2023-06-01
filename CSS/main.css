@@ -1,52 +1,58 @@
 /* black1: #0B090A */
 /* black2: #161A1D */
 /* red1: #BA181B */
-/* red2: E5383B# */
+/* red2: #E5383B */
 
 body {
   font-family: 'Epilogue', sans-serif;
-  color: #0b090a;
-}
-
-.btn {
-  background-color: #0b090a;
-  text-transform: uppercase;
-  font-size: 1rem;
-  
-  
-}
-
-.btn-sm {
-  font-size: 0.9rem;
-  padding: 12px 24px;
-  border: 2px solid #ffffff;
-}
-
-.btn-small {
-  padding: 20px 40px;
-  color: #ffffff;
-  background-color: #ba181b;
-}
-
-.header {
-  background-color: #0b090a;
-  padding: 34px 12px;
-  color: #ba181b;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background-color: #ffffff;
+ 
 }
 
 .bg {
   background-color: #0b090a;
+  height: 930px;
 }
 
-.services {
-  background-color: #ffffff;
+.header {
+}
+
+.btn,
+.btn-sm {
+  text-transform: uppercase;
+  border: 1px solid #ffffff;
+}
+
+.main,
+h1 {
+  font-size: 56px;
+  line-height: 58px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.main,
+p {
+  font-size: 20px;
+  line-height: 28px;
+  color: #c5c5c5;
+  max-width: 520px;
+}
+
+.btn-small {
+  background-color: #911618;
+  color: #ffffff;
+}
+
+/* section - Nossos Serviços*/
+
+.sec {
+  padding: 96px 20px;
+  height: 850px;
 }
 
 .overtitle {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
   color: #e5383b;
   font-weight: 700;
@@ -59,88 +65,35 @@ body {
   font-weight: 700;
 }
 
-/* Hero */
-
-.hero-text {
-  margin: auto;
-  /* display: flex;
-  flex-direction: column;
-  align-items: flex-start; */
-}
-
-.hero-text__title {
-  font-size: 56px;
-  line-height: 64px;
+.text-b {
   color: #ffffff;
   font-weight: 700;
-}
-
-.hero-text__subtitle {
-  padding: 15px 0px;
-  font-size: 20px;
-  line-height: 28px;
-  color: #c5c5c5;
-  max-width: 520px;
-}
-
-#gallery-container {
-  margin-bottom: 30px 30px;
-}
-.row {
-  --bs-gutter-x: 0rem;
-}
-.sec {
-  background-color: #ffffff;
-  padding: 96px 30px;
-}
-
-.card-title {
-  font-weight: 700;
-}
-
-.card-text {
-  color: #e5383b;
-  padding-bottom: 15px;
 }
 
 .card {
-  background-color: #e5e5e5;
-  box-shadow: 10px 10px 30px 0px rgb(146, 146, 146);
-  margin: 20px 0px;
+  background-color: #000000;
+  box-shadow: 10px 10px 40px 0px #5b5b5b;
+  padding: 0;
 }
 
-#just {
-  justify-content: space-around;
+/* Location - mapa */
+
+.map{
+  height: 700px;
 }
-
-/* Location */
-
-#location-container {
-  background-color: #ffffff;
-  
-}
-
-#location-container .location{
-  padding: 96px 72px 48px;
-}
-
-#location-container address {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  
-}
-
 /* Footer */
 
-footer{
-  background-color: #0b090a;
+footer {
+  
   color: #ffffff;
   padding: 48px 72px;
-  display: flex;
-  justify-content:space-between ;
-  align-items: center;
+  
+  
 }
+.copy{
+  font-size: 16px;
+}
+
 footer a {
   color: currentColor;
 }
