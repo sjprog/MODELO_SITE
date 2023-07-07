@@ -23,10 +23,10 @@ $(".sir").hide();
 $(".sir1").hide();
 
 setTimeout(() => {
-    $(".sir").slideDown("slow");
-    $(".sir1").fadeIn("slow");
+    $(".sir").slideDown(1500);
+    $(".sir1").fadeIn(1500);
     
-}, 600)
+},600)
 
 
 
